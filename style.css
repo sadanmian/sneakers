@@ -567,3 +567,20 @@ footer {
     padding: 20px;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .navBottom {
+    flex-direction: column;
+  }
+
+  .menuItem {
+    padding: 10px;
+  }
+  .productImg {
+    width: 50%;
+  }
+
+  .nsImg {
+    display: none;
+  }
+}
